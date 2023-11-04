@@ -1,0 +1,52 @@
+body{
+  /* background-color: aquamarine; */
+  background-image: url(..css/img/photo_tech.jpg);
+}
+button{
+  display: block;
+  margin:0 auto;
+  color:white ;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 6px;
+  height: 40px;
+  width: 80px;
+}
+.container{
+  background-color: antiquewhite;
+  width: 270px;
+  height: 400px;
+  display: grid;
+  grid-template-rows:repeat(3,1fr);
+  gap: 12px;
+  padding-left: 40px;
+  padding-bottom: 50px;
+  padding-top: 25px;
+  border-radius:8px ;
+  box-shadow: 2px 2px #898484;
+  margin: 0 auto;
+}
+.name,.panel,.date{
+  display: block;
+}
+input{
+border: none;
+border-bottom: 3px solid #eeeeee;
+border-right: 3px solid #eeeeee;
+margin-top: -10;
+width:230px;
+outline: none;
+}
+.dateformat{
+  width:50px;
+  display: inline;
+}
+
+label{
+  margin-bottom: -10;
+  /* text-decoration:line-through; */
+  opacity: 0.4;
+}
+/* .login_panel{ 
+} */
+

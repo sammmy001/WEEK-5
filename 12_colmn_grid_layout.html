@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>12 column layout</title>
+    <link rel="stylesheet" href="css/12_colmn_grid_layout.css">
+  </head>
+  <body>
+    <form>
+    <div class="container">
+      <div class="login_panel">
+        <label for="email" class="panel">Email</label>
+        <input type="text" name="" id="email">
+        <label for="password"  class="panel">Password</label>
+        <input type="password" name="" id="password">
+      </div>
+      <div class="names">
+       <label for="first_name" class="name">first name</label>
+       <input type="text" name="" id="first_name"  required>
+       <label for="Last_name" class="name">Last name</label>
+       <input type="text" name="" id="Last name" required>
+      </div>
+      <div class="date_of_birth">
+        <label for="day" class="date">Day</label>
+        <input type="number" name="" id="day" class="dateformat" min="01" max="31">
+        <label for="month" class="date">month</label>
+        <input type="number" name="" id="month" class="dateformat" min="01" max="12">
+        <label for="year" class="date">Year</label>
+        <input type="number" name="" id="year" class="dateformat"min="1980" max="2020">
+      </div>
+      </form>
+      <button type="submit">Submit</button>
+  </body>
+</html>
