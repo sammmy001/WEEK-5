@@ -1,6 +1,6 @@
 body{
-	/* un comment the background color below to see the height of the image */
-	/* background-color:rgb(182, 205, 224); */
+	un comment the background color below to see the height of the image
+	background-color:rgb(182, 205, 224);
 	color: #898787;
 }
 h1,.home{
@@ -14,7 +14,7 @@ p{
 }
 .container{
 	display:grid;
-	 grid-template-rows: auto 1fr auto;
+	 grid-template-rows: auto auto auto;
 	 gap:1px;
 	 width: 900px;
  }
